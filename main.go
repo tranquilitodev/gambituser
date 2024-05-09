@@ -13,4 +13,6 @@ func main() {
 }
 func EjecutoLambda(ctx context.Context, event events.CognitoEventUserPoolsPostConfirmation) (events.CognitoEventUserPoolsPostConfirmation, error) {
 	fmt.Println("Funcion lambda")
+	fmt.Println("Funcion lambda")
+
 }
