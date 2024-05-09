@@ -2,14 +2,15 @@ package main
 
 import (
 	"context"
+	"fmt"
 
 	"github.com/aws/aws-lambda-go/events"
 	lambda "github.com/aws/aws-lambda-go/lambda"
 )
 
 func main() {
-	lambda.Start(EjecutoLmabda)
+	lambda.Start(EjecutoLambda)
 }
-func EjecutoLmabda(ctx context.Context, event events.CognitoEventUserPoolsPostConfirmation)(events.CognitoEventUserPoolsPostConfirmation,error) {
-
+func EjecutoLambda(ctx context.Context, event events.CognitoEventUserPoolsPostConfirmation) (events.CognitoEventUserPoolsPostConfirmation, error) {
+	fmt.Println("Funcion lambda")
 }
