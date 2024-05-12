@@ -43,6 +43,8 @@ func EjecutoLambda(ctx context.Context, event events.CognitoEventUserPoolsPostCo
 		return event, err
 
 	}
+	err = db.SignUp(datos)
+	return event, err
 
 }
 

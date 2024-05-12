@@ -3,6 +3,7 @@ module github.com/tranquilitodev/gambituser
 go 1.21.5
 
 require (
+	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/aws/aws-lambda-go v1.47.0 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.26.1 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.27.12 // indirect
@@ -18,4 +19,5 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.23.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.28.7 // indirect
 	github.com/aws/smithy-go v1.20.2 // indirect
+	github.com/go-sql-driver/mysql v1.8.1 // indirect
 )
